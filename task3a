@@ -1,0 +1,14 @@
+<html>
+<form method='POST' enctype='multipart/form-data' action='task3.php'>
+<p><b>Имя: </b><input type='text' name='name' placeholder="Имя"><br></p>
+<p><b>Текст:</b></p>
+<p><textarea rows="10" cols="40" name="text" placeholder="Введите текст"></textarea></p>
+<p><b>Картинка: </b></p>
+<input type='file' name='userpic'><br>
+<p><input name="sex" type="radio" value="M"> Мужской
+    <input name="sex" type="radio" value="W"> Женский
+     </p>
+    <input type="submit" value="Отправить" onclick = ''>
+    <input type="reset" value="Сброс">
+</form>
+</html>
